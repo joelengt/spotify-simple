@@ -1,0 +1,39 @@
+.play , .pause
+	display block
+	height 50px
+	width 50px
+	border 1px solid white
+	border-radius 50%
+	position relative
+	&::before
+		position absolute
+		top 0
+		bottom 0
+		left 0
+		right 0
+		margin auto
+	
+.play::before
+	content ""
+	height 0
+	width 0
+	display block
+	border-top 10px solid transparent
+	border-bottom 10px solid transparent
+	border-left 16px solid white
+
+.pause::before
+	content ""
+	display block
+	height 16px
+	width 16px
+	background linear-gradient(
+					to right,
+					#fff 33%,
+					transparent 33%,
+					transparent 66%,
+					#fff 66%		
+					);
+	
+	
+	

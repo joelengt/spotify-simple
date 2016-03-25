@@ -1,0 +1,13 @@
+{
+  "name": "figuras",
+  "version": "1.0.0",
+  "description": "Blur desenfoque diseño, y figuras geometricas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": " stylus -u nib -o css/ -w lib/estilos.styl",
+    "start": "DEV_SERVER_PORT=5000 DEV-SERVER"
+  },
+  "author": "joelengt",
+  "license": "ISC"
+}
